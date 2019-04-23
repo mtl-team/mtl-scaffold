@@ -1,0 +1,39 @@
+{
+	"config": {
+		"appName": "mtl",
+		"packageName": "com.yonyou.mtl",
+		"projectName": "mtl",
+		"versionName": "1.0.0",
+		"versionCode": "100",
+		"versionBuild": "1.0.0",
+		"startPage": "index.html",
+		"debuggerEnable": "false",
+		"reinforcement": "false",
+		"sandbox": "false",
+		"targetDevice": "handset",
+		"statusBarTheme": "summer.Animations.NoTitleBar.FullScreen",
+		"androidMinSdkVersion": "16",
+		"isLibraryCompilation": "false",
+		"cordovaPlugins": {
+			"cordovaPlugin": [
+				{
+					"name": "cordova-plugin-compat",
+					"type": "cordova"
+				},
+				{
+					"name": "cordova-plugin-file",
+					"type": "cordova"
+				},
+				{
+					"name": "cordova-plugin-http",
+					"type": "cordova"
+				},
+				{
+					"name": "cordova-plugin-camera",
+					"type": "cordova"
+				}
+			]
+		},
+		"gitUrl": "https://gogs.yonyoucloud.com/caiyi/mtl.git"
+	}
+}
